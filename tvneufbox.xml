@@ -1,0 +1,64 @@
+﻿<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleVera" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ruleVera" scope="public">
+    <example>Sarah met TF1 !</example>
+    <tag>out.action=new Object(); </tag>
+    <item weight="2">Sarah</item>
+    <item>met</item>
+    <one-of>
+      <item>té èfe un<tag>  out.action.action="chaine"; out.action.chaine="1"; </tag></item>
+      <item>France deux<tag>  out.action.action="chaine"; out.action.chaine="2"; </tag></item>
+      <item>France trois<tag>  out.action.action="chaine"; out.action.chaine="3"; </tag></item>
+      <item>Canal plus<tag>  out.action.action="chaine"; out.action.chaine="4"; </tag></item>
+      <item>France cinq<tag>  out.action.action="chaine"; out.action.chaine="5"; </tag></item>
+      <item>aime six<tag>  out.action.action="chaine"; out.action.chaine="6"; </tag></item>
+      <item>Arté<tag>  out.action.action="chaine"; out.action.chaine="7"; </tag></item>
+      <item>Dé huit<tag>  out.action.action="chaine"; out.action.chaine="8"; </tag></item>
+      <item>double v neuf<tag>  out.action.action="chaine"; out.action.chaine="9"; </tag></item>
+      <item>té aime sais<tag>  out.action.action="chaine"; out.action.chaine="10"; </tag></item>
+      <item>haine thé un<tag>  out.action.action="chaine"; out.action.chaine="11"; </tag></item>
+      <item>haine air ji<tag>  out.action.action="chaine"; out.action.chaine="12"; </tag></item>
+      <item>elle sais paix<tag>  out.action.action="chaine"; out.action.chaine="13"; </tag></item>
+      <item>France quatre<tag>  out.action.action="chaine"; out.action.chaine="14"; </tag></item>
+      <item>bé effe aime thé vais<tag>  out.action.action="chaine"; out.action.chaine="15"; </tag></item>
+      <item>itélé<tag>  out.action.action="chaine"; out.action.chaine="16"; </tag></item>
+      <item>dé dix-sept<tag>  out.action.action="chaine"; out.action.chaine="17"; </tag></item>
+      <item>guli<tag>  out.action.action="chaine"; out.action.chaine="18"; </tag></item>
+      <item>France haut<tag>  out.action.action="chaine"; out.action.chaine="19"; </tag></item>
+      <item>Hache dé un<tag>  out.action.action="chaine"; out.action.chaine="20"; </tag></item>
+      <item>l'équipe<tag>  out.action.action="chaine"; out.action.chaine="21"; </tag></item>
+      <item>six terre<tag>  out.action.action="chaine"; out.action.chaine="22"; </tag></item>
+      <item>la vingt trois<tag>  out.action.action="chaine"; out.action.chaine="23"; </tag></item>
+      <item>paris première<tag>  out.action.action="chaine"; out.action.chaine="50"; </tag></item>
+      <item>thé va<tag>  out.action.action="chaine"; out.action.chaine="51"; </tag></item>
+      <item>air thé elle neuf<tag>  out.action.action="chaine"; out.action.chaine="52"; </tag></item>
+      <item>guème ouane<tag>  out.action.action="chaine"; out.action.chaine="53"; </tag></item>
+      <item>guème ouane plus un<tag>  out.action.action="chaine"; out.action.chaine="54"; </tag></item>
+      <item>no laïlfe<tag>  out.action.action="chaine"; out.action.chaine="176"; </tag></item>
+      <item>noute tévé<tag>  out.action.action="chaine"; out.action.chaine="330"; </tag></item>
+      <item>tropique tévé<tag>  out.action.action="chaine"; out.action.chaine="331"; </tag></item>
+      
+      <item>allume le décodeur<tag>  out.action.action="commande"; out.action.commande="on"; </tag></item>
+      <item>éteint le décodeur<tag>  out.action.action="commande"; out.action.commande="off"; </tag></item>
+      <item>page d'accueil<tag>  out.action.action="commande"; out.action.commande="sfr"; </tag></item>
+      <item>monte<tag>  out.action.action="commande"; out.action.commande="up"; </tag></item>
+      <item>descend<tag>  out.action.action="commande"; out.action.commande="dn"; </tag></item>
+      <item>à gauche<tag>  out.action.action="commande"; out.action.commande="lt"; </tag></item>
+      <item>à droite<tag>  out.action.action="commande"; out.action.commande="rt"; </tag></item>
+      <item>affiche le programme télé<tag>  out.action.action="commande"; out.action.commande="sfr,2,rt,2,ok,5,5"; </tag></item>
+      <item>fais défiler<tag>  out.action.action="commande"; out.action.commande="dn,dn,dn,dn"; </tag></item>
+      <item>retour<tag>  out.action.action="commande"; out.action.commande="ret"; </tag></item>
+      <item>coupe le son<tag>  out.action.action="commande"; out.action.commande="vm,vm,vm,vm,vm,vm,vm,vm,vm,vm,vm,vm,vm,vm,vm,vm,vm,vm,vm,vm"; </tag></item>
+      <item>met le son<tag>  out.action.action="commande"; out.action.commande="vp,vp,vp,vp,vp,vp,vp,vp,vp,vp,vp,vp,vp,vp,vp,vp,vp,vp,vp,vp"; </tag></item>      
+      <item>ok<tag>  out.action.action="commande"; out.action.commande="ok"; </tag></item>
+      <item>chaine suivante<tag>  out.action.action="commande"; out.action.commande="dn"; </tag></item>
+      <item>chaine précédente<tag>  out.action.action="commande"; out.action.commande="up"; </tag></item>
+      <item>met en pause<tag>  out.action.action="commande"; out.action.commande="pause"; </tag></item>
+      <item>lecture<tag>  out.action.action="commande"; out.action.commande="play"; </tag></item>
+      <item>avance rapide<tag>  out.action.action="commande"; out.action.commande="ff"; </tag></item>
+      <item>retour rapide<tag>  out.action.action="commande"; out.action.commande="rw"; </tag></item>
+      
+
+    </one-of>
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/tvneufbox";</tag>
+  </rule>
+</grammar>

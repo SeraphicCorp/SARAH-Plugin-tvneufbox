@@ -1,0 +1,9 @@
+{
+  "modules" : { 
+    "tvneufbox"  : {
+      "description": "Commande vocale decodeur TV NeufBox",
+      "version"    : "1.0",
+      "api_url": "http://127.0.0.1"
+    }
+  }
+}
